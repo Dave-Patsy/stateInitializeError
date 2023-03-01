@@ -1,0 +1,29 @@
+
+.grid_container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-block: auto;
+}
+
+.memory_card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.card_img{
+    width: 100%;
+}
+
+.grid_wrapper{
+    display:flex;
+    width: 100%;
+    height: 28rem;
+    justify-content: center;
+    align-items: center;
+}
